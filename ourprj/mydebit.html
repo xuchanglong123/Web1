@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我的发单</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="styl.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="debit-top">
+      <div class="process-1">发布快递信息</div>
+      <div class="process-2">
+        
+      </div>
+    </div>
+
+
+
+    <div class="debit-form">
+      <form action="" method="">
+        <div class="form-li">
+          <span class="fonts">快递站点</span><input type="text" class="input-li" name="site">
+        </div>
+        <div class="form-li">
+          <span class="fonts">送达时间</span><input type="time" class="time-f" name="datef" /><span class="fonts">至</span>
+                <input type="time" class="time-l" name="datel" />
+        </div>
+        <div class="form-li">
+           <span class="fonts">交货地点</span><input type="text" class="input-li" name="d-address">
+        </div>
+        <div class="form-li">
+          <span class="fonts">悬赏金额</span><input type="text" class="input-li" name="money">
+        </div>
+        <div class="form-li">
+           <span class="fonts">快递规格</span>
+           <input type="radio" class="radio-li" id="radio-one" name="d-weight" value="min">小型(＜1kg)
+           <input type="radio" class="radio-li" name="d-weight" value="mid">中型(1-5kg)
+           <input type="radio" class="radio-li" name="d-weight" value="max">大型(＞5kg)
+        </div>
+        <div class="form-li">
+          <span class="fonts">备注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="text" class="input-li" name="remarks">
+        </div>
+        <div class="but">
+          <input type="submit" class="but-con" name="confirm" value="确认发布">
+          <input type="submit" class="but-can" name="cancel" value="取消">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
